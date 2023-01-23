@@ -15,7 +15,7 @@ categories = ["command-line-utilities"]
 [dependencies]
 serde = { version = "1.0.136", features = [ "derive" ] }
 clap = { version = "4.0.32", features = [ "derive", "cargo" ] }
-toml = "0.5.8"
+toml = "0.5.11"
 color-eyre = "0.6.1"
 
 [[bin]]
